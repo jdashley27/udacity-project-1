@@ -1,0 +1,181 @@
+/*
+ * Author: Justin Ashley
+ * Created October 13th, 2014
+ *
+ * Description: This serves as the core file for pulling all of the other files into the system
+ */
+
+@import "includes/normalize";
+@import "includes/colors";
+@import "includes/var";
+@import "includes/oocss";
+@import "includes/bootstrap";
+@import "includes/bootstrap-theme";
+
+
+body {
+	background-color: #222;
+	color: white;
+	font-size: 10px;
+}
+
+#logo-wrapper {
+	padding: 0px;
+	img {
+		width: 110px;
+		height: 106px; 
+		border: none; 
+		margin-top: 15px;
+		opacity: 0;
+	}
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 5rem;
+	line-height: 30px;
+	text-align: right;
+	color: $c-primary;
+	margin-top: 40px;
+	opacity: 0;
+}
+
+h2 {
+	font-size: 3.5rem;
+	font-variant: small-caps;
+}
+
+h3 {
+	font-size: 3rem;
+	font-variant: small-caps;
+}
+
+p {
+	font-size: 1.6rem;
+}
+
+h2, h3, h4, p, ul, li {
+	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+}
+
+
+#header-row {
+	/*border-bottom:1px solid white;*/
+	padding-bottom: 10px;
+}
+
+a:hover {
+	color: $c-primaryHover;
+}
+
+#tagline {
+	font-size: 1.6rem;
+	font-style: italic;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-variant: small-caps;
+}
+
+#header-bottom-border {
+	width: 0px;
+	float: left;
+}
+
+#featured-project {
+	opacity: 0;
+}
+
+#additional-work {
+	opacity: 0;
+}
+
+.portfolio-wrapper {
+	opacity: 0;
+}
+
+.additional-work img {
+	opacity: .8;
+}
+
+.additional-work img:hover {
+	opacity: 1;
+}
+
+.additional-work h3 {
+	text-align: center;
+	background-color: #333;
+	margin-top: 0px;
+	padding: 10px 0px;
+	margin-bottom: 40px;
+	color: $c-primary;
+}
+
+img {
+	width: 100%;
+	border: $img-border;
+}
+
+footer {
+	background-color: $c-backgroundColor1;
+	padding: 10px 0;
+}
+
+@media(max-width:440px) {
+	#logo-wrapper {
+		width: 100%;
+	}
+
+	#logo-wrapper img {
+		margin: 20px auto 0 auto;
+		display: block;
+	}
+
+	#header-title-wrapper {
+		clear: both;
+		width: 100%;
+	}
+
+	#header-title-wrapper h1 {
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 2.4rem;
+	}
+
+	h3 {
+		font-size: 2rem;
+	}
+
+	.additional-work h3 {
+		margin-bottom: 20px;
+		border: $border;
+	}
+	
+	footer {
+		margin-top:20px;
+		p {
+			text-align: center;
+			float: none;
+		}
+	}
+}
+
+@media(min-width:440px) {
+	footer p {
+		text-align: right;
+	}
+
+}
+
+@media(min-width:765px) {
+	.additional-work h3 {
+		font-size: 2.4rem;
+	}
+}
+
+@media(min-width:990px) {
+	.additional-work h3 {
+		font-size: 3rem;
+	}
+}
