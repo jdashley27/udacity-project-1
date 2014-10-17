@@ -22,7 +22,7 @@
 		// Display Items differently on lower resolutions
 		if( window_width <= 760 ) {
 			setTimeout(function(){
-				$logo.animate({ opacity: 100 },2000);
+				$logo.velocity({ opacity: 100 },2000);
 			}, 500);
 
 			showHeaderTitle(timeOut);
@@ -43,7 +43,7 @@
 
 			// This animates the logo and brings it into the user's view
 			setTimeout(function() {
-				$logo.animate({
+				$logo.velocity({
 					"right" : "0px",
 					"opacity" : 100
 				}, timeOut);
@@ -87,7 +87,7 @@
 
 		function showHeaderTitle(timeOut) {
 			setTimeout(function() {
-				$("#header-title-wrapper h1").animate({
+				$("#header-title-wrapper h1").velocity({
 					"opacity" : 100
 				},5000);
 			}, timeOut);
@@ -95,7 +95,7 @@
 
 		function showHeaderBorder(timeOut) {
 			setTimeout(function() {
-				$("#header-bottom-border").animate({
+				$("#header-bottom-border").velocity({
 					"width" : "100%"
 				},1000);
 			}, timeOut);
@@ -103,7 +103,7 @@
 
 		function showFeaturedProject(timeOut) {
 			setTimeout(function() {
-				$("#featured-project").animate({
+				$("#featured-project").velocity({
 					"opacity" : 100
 				}, 5000);
 			}, timeOut);
@@ -111,7 +111,7 @@
 
 		function showPortfolioRows(timeOut) {
 			setTimeout(function() {
-				$(".additional-work .portfolio-wrapper").animate({
+				$(".additional-work .portfolio-wrapper").velocity({
 					"opacity" : 100
 				}, 5000);
 			}, timeOut);
