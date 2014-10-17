@@ -12,6 +12,9 @@ For this project, I wanted to lay down a foundation to build upon. I wanted to m
 
 ###JavaScript Libraries
 * jQuery.js: I utilized the jQuery library so I can add custom animation to the project.
+
+* JavaScript Scroll Into View: I used a function from a Scott Dowding from [Stack Overflow](http://stackoverflow.com/questions/487073/check-if-element-is-visible-after-scrolling) for determining when an element has been scrolled into view.
+
 * jquery-rotate.js: This is a custom library by Wilq32 (Made by Wilq32, wilq32@gmail.com, Wroclaw, Poland, 01.2009 [Website] (http://code.google.com/p/jqueryrotate/) ), which allows me to utilize a rotation effect upon the logo as it first comes into view (jQuery has a bug where this doesn't work without a patch fix).
 
 * velocity.js: This is a custom library provided by Julian Shapiro. This file works in conjunction with the jQuery library. It optimizes the .animation() method, which speeds up the rendering, as-well-as allowing for additional functionality. An example is the use of the bouncy easing for displaying my individual portfolio pieces. [Website] (http://julian.com/research/velocity/)
