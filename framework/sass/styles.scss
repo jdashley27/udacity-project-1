@@ -7,15 +7,13 @@
 
 @import "includes/normalize";
 @import "includes/colors";
-@import "includes/var";
 @import "includes/oocss";
 @import "includes/bootstrap";
-@import "includes/bootstrap-theme";
 
 
 body {
-	background-color: #222;
-	color: white;
+	background-color: $c-backgroundColor;
+	color: $c-darkContrast;
 	font-size: 10px;
 }
 
@@ -71,7 +69,7 @@ a:hover {
 #tagline {
 	font-size: 1.6rem;
 	font-style: italic;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 	color: white;
 	font-variant: small-caps;
 }
@@ -103,7 +101,7 @@ a:hover {
 
 .additional-work h3 {
 	text-align: center;
-	background-color: #333;
+	background-color: $c-backgroundColor1;
 	margin-top: 0px;
 	padding: 10px 0px;
 	margin-bottom: 40px;
