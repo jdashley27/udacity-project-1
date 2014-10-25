@@ -5,10 +5,8 @@
  * Description: This serves as the core file for pulling all of the other files into the system
  */
 
-@import "includes/normalize";
 @import "includes/colors";
 @import "includes/oocss";
-@import "includes/bootstrap";
 
 
 body {
@@ -16,6 +14,7 @@ body {
 	color: $c-darkContrast;
 	font-size: 10px;
 }
+
 
 #logo-wrapper {
 	padding: 0px;
@@ -28,6 +27,7 @@ body {
 	}
 }
 
+
 h1 {
 	font-family: 'Dancing Script', cursive;
 	font-size: 5rem;
@@ -38,21 +38,30 @@ h1 {
 	opacity: 0;
 }
 
+
 h2 {
 	font-size: 3.5rem;
 	font-variant: small-caps;
 }
+
 
 h3 {
 	font-size: 3rem;
 	font-variant: small-caps;
 }
 
+
 p {
 	font-size: 1.6rem;
 }
 
-h2, h3, h4, p, ul, li {
+
+h2, 
+h3, 
+h4, 
+p, 
+ul, 
+li {
 	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 }
 
@@ -62,9 +71,11 @@ h2, h3, h4, p, ul, li {
 	padding-bottom: 10px;
 }
 
+
 a:hover {
 	color: $c-primaryHover;
 }
+
 
 #tagline {
 	font-size: 1.6rem;
@@ -74,30 +85,37 @@ a:hover {
 	font-variant: small-caps;
 }
 
+
 #header-bottom-border {
 	width: 0px;
 	float: left;
 }
 
+
 #featured-project {
 	opacity: 0;
 }
+
 
 #additional-work {
 	opacity: 0;
 }
 
+
 .portfolio-wrapper {
 	opacity: 0;
 }
+
 
 .additional-work img {
 	opacity: .8;
 }
 
+
 .additional-work img:hover {
 	opacity: 1;
 }
+
 
 .additional-work h3 {
 	text-align: center;
@@ -108,50 +126,63 @@ a:hover {
 	color: $c-primary;
 }
 
+
 img {
 	width: 100%;
 	border: $img-border;
 }
+
 
 footer {
 	background-color: $c-backgroundColor1;
 	padding: 10px 0;
 }
 
+
 @media(max-width:440px) {
+	
 	#logo-wrapper {
 		width: 100%;
 	}
 
+	
 	#logo-wrapper img {
 		margin: 20px auto 0 auto;
 		display: block;
 	}
 
+	
 	#header-title-wrapper {
 		clear: both;
 		width: 100%;
 	}
 
+	
 	#header-title-wrapper h1 {
 		text-align: center;
 	}
 
+	
 	h2 {
 		font-size: 2.4rem;
 	}
 
+	
 	h3 {
 		font-size: 2rem;
 	}
 
+	
 	.additional-work h3 {
 		margin-bottom: 20px;
 		border: $border;
 	}
 	
+	
 	footer {
 		margin-top:20px;
+		
+
 		p {
 			text-align: center;
 			float: none;
@@ -159,20 +190,26 @@ footer {
 	}
 }
 
+
 @media(min-width:440px) {
+	
 	footer p {
 		text-align: right;
 	}
 
 }
 
+
 @media(min-width:765px) {
+	
 	.additional-work h3 {
 		font-size: 2.4rem;
 	}
 }
 
+
 @media(min-width:990px) {
+	
 	.additional-work h3 {
 		font-size: 3rem;
 	}

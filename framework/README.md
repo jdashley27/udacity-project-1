@@ -3,6 +3,11 @@ Created: October 13th, 2014
 
 #Project 1: Online Portfolio
 
+Update
+-----------------------------
+
+I've regressed the system so it doesn't utilize Sass (at least, for the time being in this project). Originally, I was pulling in all of the bootstrap, normailze, and other CSS files to be minified into one file. I did this so the file can be readable, and formatted to the Google Docs specs (as a pre-compiler doesn't format correctly).
+
 ##Background 
 A quick, brief background about myself. I've been working with HTML/CSS since 2009, having first started out reading reference books on the subject. I've earned an Associate's Degree for Web Design, and have over 3 years professional experience in the field; 2 of which is in a company environment on an e-commerce system (and still currently working for). For me, this course will help fill in some areas I may be weak in, while building up my credentials as a professional developer. Also, I would like to see a program such as this become a standard within the industry for training. 
 
